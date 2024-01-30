@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+    --bs-primary: #EFECEC;
+    --bs-primary-rgb: 239, 236, 236;
+
+    --bs-secondary: #FC6736;
+    --bs-secondary-rgb: 252, 103, 54;
+
+    --bs-primary-bg-subtle: #474F7A;
+    --bs-secondary-bg-subtle: #FFB0B0;
+}
+
+.ff-primary {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.navbar .navbar-nav {
+    height: 60px;
+}
+
+.navbar .navbar-nav li:hover {
+    border-bottom: 3px solid var(--bs-secondary);
+}
+
+.navbar .navbar-nav .nav-item:hover > a, .navbar-nav .nav-link.active {
+    color: var(--bs-secondary) !important;
+    transition: none;
+}
+
