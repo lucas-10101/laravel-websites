@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.ff-primary {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.w-90 {
+    width: 90% !important;
+}

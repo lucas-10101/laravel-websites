@@ -19,6 +19,7 @@
 
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/utils.css') }}">
 
     <title>@yield('page-title', 'Page title')</title>
 </head>
@@ -26,6 +27,7 @@
 <body class="bg-primary min-vh-100">
     @yield('page-navbar')
     @yield('page-body', 'No content available')
+    @yield('page-footer')
 </body>
 
 </html>
